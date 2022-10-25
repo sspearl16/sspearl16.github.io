@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.2/dist/cyborg/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Styles/style.css">
     <title>Bio</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
                     <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="./projects.html">Projects</a>
                     </li>
                 </li>
             </ul>
@@ -30,14 +31,31 @@
     <!--heading-->
     <h1 style="text-align: center">Bio</h1>
 
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+    <!--grid for photo, video and bio text-->
+    <div class="container-fluid">
+        <div class="row" id="table">
+            <div class="col-md-4" >
+                <img class="img-fluid img-thumbnail" img src="/Images/ssp.JPG" alt="ssp">
+            </div>
+            <div class="col-md-4" >Video</div>
+            <div class="col-md-4" >
+                <h5 class="text-md">About Me</h5>
+                    <br>
+                <p class="text-md text-start">
+                Hi there, my name is Su Su Pearl (Su) from Myanmar. 
+                I am currently working as a business development executive
+                at an IT service provider company in Yangon, Myanmar. As 
+                someone with no prior experience in coding, this course has been 
+                quite challenging but over-time I hope to build up this portfolio 
+                to something I can be proud of. 
+                </p>
+            </div>
+        </div>
     </div>
+    
 
     <!--footer-->       
-    <div class="container p-4">
+    <div class="container p-1">
         <footer class="page-footer fixed-bottom bg-dark text-center text-white">
             <section class="mb-4">
                 <!--email-->
